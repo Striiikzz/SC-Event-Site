@@ -1,0 +1,230 @@
+html,body
+{
+	color: white;
+	
+
+}
+
+/* Fond du site */
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url("GIF.gif") center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+.videoBG {
+	position: fixed;
+ 	top: 0;
+  	right: 0;
+  	bottom: 0;
+ 	 left: 0;
+ 	 object-fit: cover;
+}
+
+/* Bandeau a choisir */
+
+nav{
+    width: 80%;
+    margin: auto;
+    background-color: #008587;        /*             */
+    position: center;
+    top: 0px;
+    width: 80%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+    position: relative;
+    height: 40%;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 5% 0%;
+
+}
+
+nav a:hover{
+    color: white;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #008587;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 5%;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+
+
+
+/* Main */
+
+.TitreMain
+{
+	text-align: center;
+  color: #008587;
+
+}
+
+.PremierParagraphe
+{
+  text-align: center;
+
+}
+
+
+
+
+
+/* Live */
+
+.TitreStream
+{
+  text-align: center;
+  color: ;
+}
+
+.TableauPourPoint
+{
+  width: 63%;
+}
+
+.PointsSite1
+{
+  font-size: 150%;
+}
+
+.PointsSite
+{
+  font-size: 130%;
+}
+
+.TableauLive
+{
+  height: 75%;
+  width: 90%;
+}
+
+.LiveSnake
+{
+  height: 100%; 
+  width: 100%;
+
+}
+
+.TDLive
+{
+  height: 100% ; 
+  width: 70%;
+}
+
+.ChatSnake
+{
+  height: 100%;
+  width: 100%;
+}
+
+.TDChat
+{
+  height: 100% ; 
+  width: 17%;
+}
+
+.Tweets
+{
+  font-size: 160%;
+}
+
+.tl
+{
+  height: 
+  width: 90%;
+}
+
+.Tweets
+{
+  height: 
+  width:  50%;
+
+}
