@@ -61,10 +61,10 @@ html,body
 nav{
     width: 80%;
     margin: auto;
-    background-color: #008587;        /*             */
+    background-color: #008587;     
     position: center;
     top: 0px;
-    width: 80%;
+    width: 60%;
 }
 
 nav ul{
@@ -75,10 +75,12 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    width: 24%;
+    width: 20%;
     text-align: center;
     position: relative;
     height: 30%;
+    
+    
 }
 
 nav ul::after{
@@ -88,7 +90,7 @@ nav ul::after{
 }
 
 nav a{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: black;
     border-bottom: 2px solid transparent;
@@ -213,13 +215,13 @@ nav > ul li:hover .sous{
 
 .Tweets
 {
-  font-size: 160%;
+  font-size: 100%;
 }
 
 .tl
 {
  
-  width: 90%;
+  width: 70%;
 }
 
 .Tweets
