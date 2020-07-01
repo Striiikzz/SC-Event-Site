@@ -40,8 +40,12 @@
   </div>
   
   <p align="center" class="AudioSC">
-  <audio controls preload="metadata" loop autoplay>
+  <audio id="SCaudio" controls preload="metadata" loop autoplay volume=50>
     <source src="../Video/SC theme.mp3" type="audio/mpeg" >
+      <script type="text/javascript">
+        var monElementAudio = document.getElementById('SCaudio');
+        monElementAudio.volume = 0.1;
+        </script>
   </audio>
   </p>
 
