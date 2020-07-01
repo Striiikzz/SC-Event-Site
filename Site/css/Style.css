@@ -241,3 +241,21 @@ nav > ul li:hover .sous{
   text-align: center;
 
 }
+
+
+/* SC */
+
+/* info SC */
+
+
+.ImgChrisRoberts
+{
+  height: 100%;
+  width: 50%;
+}
+.VideoExplicationSC
+{
+  height: 80%;
+  width: 80%;
+  text-align: center;
+}
