@@ -152,6 +152,11 @@ nav > ul li:hover .sous{
 
 }
 
+.TrollRick
+{
+  color: red;
+}
+
 
 /* Live */
 
@@ -261,3 +266,4 @@ nav > ul li:hover .sous{
 {
   width: 60%;
 }
+
