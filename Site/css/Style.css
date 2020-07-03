@@ -135,10 +135,6 @@ nav > ul li:hover .sous{
     font-size: 12px;
 }
 
-.conteneur{
-  margin: 50px 20px;
-  height: 1500px;
-}
 
 
 
@@ -148,8 +144,7 @@ nav > ul li:hover .sous{
 .TitreMain
 {
 	text-align: center;
-  color: #008587;
-
+  color:  #008587;
 }
 
 .PremierParagraphe
@@ -158,6 +153,10 @@ nav > ul li:hover .sous{
 
 }
 
+.MainTexte
+{
+  text-align: center ;
+}
 .TrollRick
 {
   color: red;
