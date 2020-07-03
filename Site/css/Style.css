@@ -5,6 +5,12 @@ html,body
 
 }
 
+.ImageConstruction
+{
+  width: 90%;
+  height: 90%;
+}
+
 /* Fond du site */
 .fullscreen-bg {
   position: fixed;
