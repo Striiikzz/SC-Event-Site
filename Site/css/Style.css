@@ -282,49 +282,54 @@ nav > ul li:hover .sous{
 
 /* Spartan */
 
-.TexteSpartanCorp
+.TableauVersCorpEntier
 {
+  background-color: RGB(93, 188, 210,0.2);
+  border-radius: 10px;
+  height: 7%;
+  width: 20%;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url('https://fonts.googleapis.com/css?family=Anton');
 
-
-.TexteSpartanCorp {
-  
-   /* Chrome, Safari, Opera */
--webkit-animation: rainbow 5s infinite; 
-  
-  /* Standar Syntax */
-animation: rainbow 5s infinite; 
+.TableauVersCorpEntier:hover
+{
+  color: aqua;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes rainbow{
-  0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+.TableauVersCorp
+{
+  height: 100%;
+  width: 20px;
 }
 
-/* Standar Syntax */
-@keyframes rainbow{
-  0%{color: orange;}	
-10%{color: purple;}	
-20%{color: red;}
-30%{color: CadetBlue;}
-40%{color: yellow;}
-50%{color: coral;}
-60%{color: green;}
-70%{color: cyan;}
-80%{color: DeepPink;}
-90%{color: DodgerBlue;}
-100%{color: orange;}
+.ImageSpartan
+{
+  border-radius: 10px;
+  height: 110%;
+  width: 110%;
 }
+
+.TexteTableauCorp
+{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 10px;
+  width: 40px;
+}
+
+.LienCorp
+{
+  color:white;
+}
+
+.LienCorp:hover
+{
+  color: red;
+}
+
+.TexteSpartanCorp 
+{
+  color: red;
+}
+
+
