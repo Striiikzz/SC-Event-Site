@@ -98,7 +98,7 @@ nav ul::after{
     clear: both;
 }
 
-nav a{
+nav .Bandeau{
     display: inline-block;
     text-decoration: none;
     color: orange;
@@ -108,7 +108,7 @@ nav a{
 
 }
 
-nav a:hover{
+nav .Bandeau:hover{
     color: white;
     border-bottom: 2px solid white;
 }
@@ -129,15 +129,15 @@ nav > ul li:hover .sous{
     width: 100%;
     text-align: left;
 }
-.sous a{
+.sous .Bandeau{
     padding: 5%;
     border-bottom: none;
 }
-.sous a:hover{
+.sous .Bandeau:hover{
     border-bottom: none;
     background-color: RGBa(200,200,200,0.1);
 }
-.deroulant > a::after{
+.deroulant > .Bandeau::after{
     content:" ▼";
     font-size: 12px;
 }
