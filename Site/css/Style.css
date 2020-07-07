@@ -135,7 +135,6 @@ nav > ul li:hover .sous{
 }
 .sous .Bandeau:hover{
     border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
 }
 .deroulant > .Bandeau::after{
     content:" ▼";
